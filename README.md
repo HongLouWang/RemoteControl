@@ -9,5 +9,6 @@ https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-
 
 enable rdp on desktop
 https://www.windows-commandline.com/enable-remote-desktop-command-line/
+https://pureinfotech.com/enable-remote-desktop-command-prompt-windows-10/
 
 https://github.com/iiordanov/remote-desktop-clients
