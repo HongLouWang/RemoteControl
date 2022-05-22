@@ -56,11 +56,15 @@ import com.iiordanov.util.PermissionsManager;
 import com.undatech.remoteClientUi.*;
 
 import io.flutter.embedding.android.FlutterActivity;
+import io.flutter.embedding.android.FlutterFragment;
 import io.flutter.embedding.engine.FlutterEngine;
+import io.flutter.embedding.engine.FlutterEngineCache;
+import io.flutter.embedding.engine.dart.DartExecutor;
 import io.flutter.embedding.engine.plugins.shim.ShimPluginRegistry;
 import io.flutter.plugins.GeneratedPluginRegistrant;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentManager;
 
 /**
  * aRDP is the Activity for setting up RDP connections.
@@ -102,10 +106,20 @@ public class aRDP extends MainConfiguration {
 
     private Button testButton;
 
+    private Context appContext;
+
+    // Declare a local variable to reference the FlutterFragment so that you
+    // can forward calls to it later.
+    private FlutterFragment flutterFragment;
+    // Define a tag String to represent the FlutterFragment within this
+    // Activity's FragmentManager. This value can be whatever you'd like.
+    private static final String TAG_FLUTTER_FRAGMENT = "flutter_scan_page";
+
 
     @Override
     public void onCreate(Bundle icicle) {
         layoutID = R.layout.main_rdp;
+        appContext = getApplicationContext();
 
         super.onCreate(icicle);
         
@@ -167,6 +181,43 @@ public class aRDP extends MainConfiguration {
         checkboxEnableGfxH264 = (CheckBox)findViewById(R.id.checkboxEnableGfxH264);
         checkboxPreferSendingUnicode = (CheckBox)findViewById(R.id.checkboxPreferSendingUnicode);
         setConnectionTypeSpinnerAdapter(R.array.rdp_connection_type);
+
+//        Enable flutter fragment
+        FlutterEngine flutterEngine = new FlutterEngine(appContext);
+        // Instantiate a FlutterEngine.
+        flutterEngine = new FlutterEngine(this);
+
+        flutterEngine.getDartExecutor().executeDartEntrypoint(
+                DartExecutor.DartEntrypoint.createDefault()
+        );
+
+        FlutterEngineCache
+                .getInstance()
+                .put("scan_engine_1", flutterEngine);
+
+        flutterEngine.getNavigationChannel().setInitialRoute("/scan");
+
+        // Get a reference to the Activity's FragmentManager to add a new
+        // FlutterFragment, or find an existing one.
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        // Attempt to find an existing FlutterFragment,
+        // in case this is not the first time that onCreate() was run.
+        flutterFragment = FlutterFragment.withCachedEngine("scan_engine_1").build();
+
+        // Create and attach a FlutterFragment if one does not exist.
+        flutterFragment = FlutterFragment.createDefault();
+        if (flutterFragment == null) {
+            fragmentManager
+                    .beginTransaction()
+                    .add(
+                            R.id.flutter_scan,
+                            flutterFragment,
+                            TAG_FLUTTER_FRAGMENT
+                    )
+                    .commit();
+        }
+
     }
 
     /**

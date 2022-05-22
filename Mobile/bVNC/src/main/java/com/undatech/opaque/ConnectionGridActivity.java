@@ -118,43 +118,10 @@ public class ConnectionGridActivity extends FragmentActivity {
         appContext = getApplicationContext();
         super.onCreate(savedInstanceState);
 
-        FlutterEngine flutterEngine = new FlutterEngine(appContext);
-        // Instantiate a FlutterEngine.
-        flutterEngine = new FlutterEngine(this);
-
-        flutterEngine.getDartExecutor().executeDartEntrypoint(
-                DartExecutor.DartEntrypoint.createDefault()
-        );
-
-        FlutterEngineCache
-                .getInstance()
-                .put("my_engine_id", flutterEngine);
-
-        flutterEngine.getNavigationChannel().setInitialRoute("/login");
-
         setContentView(R.layout.grid_view_activity);
 
-        // Get a reference to the Activity's FragmentManager to add a new
-        // FlutterFragment, or find an existing one.
-        FragmentManager fragmentManager = getSupportFragmentManager();
-
-        // Attempt to find an existing FlutterFragment,
-        // in case this is not the first time that onCreate() was run.
-        flutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build();
-
-        // Create and attach a FlutterFragment if one does not exist.
-        flutterFragment = FlutterFragment.createDefault();
-        if (flutterFragment == null) {
-
-            fragmentManager
-                    .beginTransaction()
-                    .add(
-                            R.id.fragmentContainerView,
-                            flutterFragment,
-                            TAG_FLUTTER_FRAGMENT
-                    )
-                    .commit();
-        }
+        FlutterFragment flutterFragment = FlutterFragment.withNewEngine().dartEntrypoint("runScan").initialRoute("/scan").build();
+        fragmentManager.beginTransaction().add(R.id.fragment_container,flutterFragment,TAG_FLUTTER_FRAGMENT).commit();
 
     }
 
