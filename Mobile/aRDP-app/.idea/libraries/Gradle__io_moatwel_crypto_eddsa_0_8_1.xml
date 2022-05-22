@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.moatwel.crypto:eddsa:0.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.moatwel.crypto/eddsa/0.8.1/8578ea6c075e1a9ceb6f7cb8c51b8abc634ca9ac/eddsa-0.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.moatwel.crypto/eddsa/0.8.1/5d3abaff6b5f6a27bc2e2ed893a3d8d16fdd163f/eddsa-0.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.moatwel.crypto/eddsa/0.8.1/6a80195d41d36d049d52c321ec0a827fb22e9525/eddsa-0.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

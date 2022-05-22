@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.luben:zstd-jni:1.4.3-1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.4.3-1/46ba749388181b8ec5150f7ca589c69a897d1e7b/zstd-jni-1.4.3-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.4.3-1/892480762de1bf8d51946de952708b9763e6fea5/zstd-jni-1.4.3-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

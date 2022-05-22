@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1409870148/remote-desktop-clients.iml" filepath="$PROJECT_DIR$/.idea/modules/-1409870148/remote-desktop-clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1014755163/remote-desktop-clients.CustomVnc-app.iml" filepath="$PROJECT_DIR$/.idea/modules/1014755163/remote-desktop-clients.CustomVnc-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1856477272/remote-desktop-clients.Opaque-app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1856477272/remote-desktop-clients.Opaque-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote-desktop-clients.aRDP-app.iml" filepath="$PROJECT_DIR$/.idea/modules/remote-desktop-clients.aRDP-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1114247380/remote-desktop-clients.aSPICE-app.iml" filepath="$PROJECT_DIR$/.idea/modules/1114247380/remote-desktop-clients.aSPICE-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/77227132/remote-desktop-clients.bVNC.iml" filepath="$PROJECT_DIR$/.idea/modules/77227132/remote-desktop-clients.bVNC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1347308208/remote-desktop-clients.bVNC-app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1347308208/remote-desktop-clients.bVNC-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1342246832/remote-desktop-clients.freeaRDP-app.iml" filepath="$PROJECT_DIR$/.idea/modules/1342246832/remote-desktop-clients.freeaRDP-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1329447232/remote-desktop-clients.freeaSPICE-app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1329447232/remote-desktop-clients.freeaSPICE-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1680576964/remote-desktop-clients.freebVNC-app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1680576964/remote-desktop-clients.freebVNC-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1935782270/remote-desktop-clients.pubkeyGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/1935782270/remote-desktop-clients.pubkeyGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2001410047/remote-desktop-clients.remoteClientLib.iml" filepath="$PROJECT_DIR$/.idea/modules/-2001410047/remote-desktop-clients.remoteClientLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-735709033/remote-desktop-clients.remoteClientLib.jni.iml" filepath="$PROJECT_DIR$/.idea/modules/-735709033/remote-desktop-clients.remoteClientLib.jni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/826920198/remote-desktop-clients.remoteClientLib.jni.libs.iml" filepath="$PROJECT_DIR$/.idea/modules/826920198/remote-desktop-clients.remoteClientLib.jni.libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/315667885/remote-desktop-clients.remoteClientLib.jni.libs.deps.iml" filepath="$PROJECT_DIR$/.idea/modules/315667885/remote-desktop-clients.remoteClientLib.jni.libs.deps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-974852048/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.iml" filepath="$PROJECT_DIR$/.idea/modules/-974852048/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1958916470/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.iml" filepath="$PROJECT_DIR$/.idea/modules/-1958916470/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1544382486/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.iml" filepath="$PROJECT_DIR$/.idea/modules/-1544382486/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1372317797/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.Studio.iml" filepath="$PROJECT_DIR$/.idea/modules/-1372317797/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.Studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1860826301/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.Studio.freeRDPCore.iml" filepath="$PROJECT_DIR$/.idea/modules/1860826301/remote-desktop-clients.remoteClientLib.jni.libs.deps.FreeRDP.client.Android.Studio.freeRDPCore.iml" />
+    </modules>
+  </component>
+</project>

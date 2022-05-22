@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./../bVNC/libs/com.antlersoft.android.contentxml.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../bVNC/libs/com.antlersoft.android.contentxml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
